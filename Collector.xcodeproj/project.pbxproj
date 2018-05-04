@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B31BD26B209BE7B90072C491 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31BD26A209BE7B90072C491 /* AddItemViewController.swift */; };
+		B31BD26D209BEE620072C491 /* ItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31BD26C209BEE620072C491 /* ItemsTableViewController.swift */; };
 		B3F0FF13209A9BBA00CCA0F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F0FF12209A9BBA00CCA0F7 /* AppDelegate.swift */; };
 		B3F0FF18209A9BBA00CCA0F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3F0FF16209A9BBA00CCA0F7 /* Main.storyboard */; };
 		B3F0FF1B209A9BBA00CCA0F7 /* Collector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B3F0FF19209A9BBA00CCA0F7 /* Collector.xcdatamodeld */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		B31BD26A209BE7B90072C491 /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		B31BD26C209BEE620072C491 /* ItemsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsTableViewController.swift; sourceTree = "<group>"; };
 		B3F0FF0F209A9BBA00CCA0F7 /* Collector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Collector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3F0FF12209A9BBA00CCA0F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3F0FF17209A9BBA00CCA0F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		B3F0FF11209A9BBA00CCA0F7 /* Collector */ = {
 			isa = PBXGroup;
 			children = (
+				B31BD26C209BEE620072C491 /* ItemsTableViewController.swift */,
 				B3F0FF12209A9BBA00CCA0F7 /* AppDelegate.swift */,
 				B31BD26A209BE7B90072C491 /* AddItemViewController.swift */,
 				B3F0FF16209A9BBA00CCA0F7 /* Main.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				B3F0FF1B209A9BBA00CCA0F7 /* Collector.xcdatamodeld in Sources */,
 				B3F0FF13209A9BBA00CCA0F7 /* AppDelegate.swift in Sources */,
+				B31BD26D209BEE620072C491 /* ItemsTableViewController.swift in Sources */,
 				B31BD26B209BE7B90072C491 /* AddItemViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
